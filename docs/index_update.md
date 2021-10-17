@@ -4,6 +4,8 @@
 
 ### 10-17 [OSDev Wiki——操作系统开发入门基础（二）- 必知必会的先修技能](osdev/OSDevWiki-Required_Knowledge.md)
 
+开始开发一个操作系统前，你需要具备的技能有：计算机科学基础、语言和词汇……
+
 ### 08-26 [OSDev Wiki——操作系统开发入门基础（一）](osdev/OSDevWiki-BasicInformation-Introduction.md)
 
 本文是《操作系统开发入门基础》系列译文的第一篇，讨论了操作系统的概念，哪些工作属于操作系统的范畴。
