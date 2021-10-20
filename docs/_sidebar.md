@@ -14,13 +14,40 @@
 
 
 
-<!--<center><strong>写作</strong></center>-->
+<center><strong> - - - [ OSDev ] - - - </strong></center>
 
-<!--- [写作手记导览](wr/)  -->
-<!--- 工具方法-->
-<!--    * [卡片助力输入输出，工具我选 WorkFlowy](selfedu/HbOutputWorkFlowy.md)-->
+- [ 操作系统学习资源汇总 ](osdev/os-res_v1.0.md)  
+- [ OSDev wiki 翻译 ]
+    * [OSDev Wiki——操作系统开发入门基础（一）](osdev/OSDevWiki-BasicInformation-Introduction.md)
+    * [OSDev Wiki——操作系统开发入门基础（二）- 必知必会的先修技能](osdev/OSDevWiki-Required_Knowledge.md)
 
 
+<br>
+
+<center><strong> - - - [ 闲话 ] - - - </strong></center>
+
+- [ 不为人知的 Linux 大神 ](talking/20_facts_about_Linus_Torvalds.md)
+- [ Wikipedia 的正确打开方式 ](talking/open_WikiPedia_in_correct_way.md)
+    
+
+
+<br>
+
+<center><strong> - - - [ 网络 ] - - - </strong></center>
+
+- [ AWS 中最最基础的网络概念 ](net/basic_aws_network_concepts.md)
+- [《Linux 开源网络全栈详解：从DPDK 到 OpenFlow》之 Linux 开源网络](net/linux_opensource_network.md)
+- [ Linux 虚拟网络设备之 TUN/TAP 设备 ](net/linux_tun_tap.md)
+
+
+
+<br>
+<center><strong> - - - [ Cybersecurity ] - - - </strong></center>
+
+
+- [ 万字长文——网络安全工程师修炼之路 ](cybersecurity/cybersecurity_career.md)
+- [ 什么是 Web 应用防火墙（WAF）？ ](cybersecurity/what_is_waf.md)
+- [ pfSense——跑在 VMWare 上的防火墙 ](cybersecurity/pfSense_firewall_on_VM.md)
 
 
 
