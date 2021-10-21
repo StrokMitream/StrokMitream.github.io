@@ -38,6 +38,7 @@
 - [ AWS 中最最基础的网络概念 ](net/basic_aws_network_concepts.md)
 - [《Linux 开源网络全栈详解：从DPDK 到 OpenFlow》之 Linux 开源网络](net/linux_opensource_network.md)
 - [ Linux 虚拟网络设备之 TUN/TAP 设备 ](net/linux_tun_tap.md)
+- [2021 中国智能网卡研讨会回顾](net/2021_SmartNIC_Conference.md)
 
 
 

@@ -2,9 +2,19 @@
 
 ## 2021
 
+### 10-21 [2021 中国智能网卡研讨会回顾](net/2021_SmartNIC_Conference.md)
+
+最近回顾总结了一下今年 9月25日召开的智能网卡研讨会议题。
+保持对行业动态的关注，经常记录。
+
+---
+
+
 ### 10-17 [OSDev Wiki——操作系统开发入门基础（二）- 必知必会的先修技能](osdev/OSDevWiki-Required_Knowledge.md)
 
 开始开发一个操作系统前，你需要具备的技能有：计算机科学基础、语言和词汇……
+
+---
 
 ### 08-26 [OSDev Wiki——操作系统开发入门基础（一）](osdev/OSDevWiki-BasicInformation-Introduction.md)
 
