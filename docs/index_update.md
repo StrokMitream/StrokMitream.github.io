@@ -1,6 +1,13 @@
 # 内容更新列表
 
 ## 2021
+### 11-30 [ OSDev Wiki — 初学者误区](osdev/OSDevWiki-BeginnerMistakes.md)
+
+很多初学者，刚学了点编程，会写 `Hello World` 了，就想着开发一个操作系统。这篇 Wiki 从多个方面，介绍了初学者在准备进行操作系统开发时，经常犯的错误。
+
+---
+
+
 
 ### 10-21 [2021 中国智能网卡研讨会回顾](net/2021_SmartNIC_Conference.md)
 
