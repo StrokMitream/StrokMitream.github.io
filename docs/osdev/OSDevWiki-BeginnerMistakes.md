@@ -1,4 +1,4 @@
-
+# OSDev Wiki — 初学者误区
 
 > 本文翻译自 : [OSDev Wiki:Beginner Mistakes](https://wiki.osdev.org/Beginner_Mistakes ) .
 >

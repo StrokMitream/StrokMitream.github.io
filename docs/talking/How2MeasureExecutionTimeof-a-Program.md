@@ -1,4 +1,4 @@
-
+# 【翻译】如何测量程序执行时间
 
 > 本文翻译自：https://serhack.me/articles/measure-execution-time-program/
 >
@@ -246,5 +246,4 @@ Profiler 可以分析每一行代码。对开发者来说，使用 profiler 并�
 
 ---
 ![扫码_搜索联合传播样式-白色版](http://cdn.talkaboutos.top/%E6%89%AB%E7%A0%81_%E6%90%9C%E7%B4%A2%E8%81%94%E5%90%88%E4%BC%A0%E6%92%AD%E6%A0%B7%E5%BC%8F-%E7%99%BD%E8%89%B2%E7%89%88.png)
-
 
