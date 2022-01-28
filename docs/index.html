@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
   <meta charset="UTF-8">
   <title>闲话操作系统</title>
@@ -107,8 +108,38 @@ var _hmt = _hmt || [];
       /* max-width: 300px; */
     }
 
+  @media screen and (max-width: 640px) {
+    main {
+      z-index: unset;
+    }
+
+    .app-nav > ul li:first-of-type ul {
+      right: unset;
+    }
+
+    .app-nav.no-badge,
+    .app-nav > ul,
+    .app-nav > ul > li {
+      margin: 0;
+      padding: 0;
+    }
+
+    .app-nav > ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100vw;
+      padding: 16px;
+    }
+  }
+
+  @media screen and (max-width: 960px) {
+    .markdown-section > :first-child {
+      margin: 20px 0 20px 0 !important;
+    }
+  }
+
   </style>
-  
 
 
 
@@ -288,13 +319,14 @@ var _hmt = _hmt || [];
     mergeNavbar: false,
     executeScript: true,
     loadSidebar: true,
-    autoHeader: true,
+    autoHeader: false,
     loadNavbar: true,
     maxLevel: 1,
     subMaxLevel: 5,
     sidebarDisplayLevel: 0,
     name: '<span>闲话操作系统</span>',
     nameLink: 'https://talkaboutos.top/',
+
     topBanner: {
       content: '测试 banner，为什么看不到？(没注释掉也看不到)',
       defaultTag: 'span',

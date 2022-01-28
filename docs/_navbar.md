@@ -1,14 +1,18 @@
 
 
 
-- [导览](/)
+- 导览
+  - [按主题查看](_sidebar.md)
+  - [按时间查看](index_update.md)
+  - [博客导览](/)
 - OSDev<sup style="color:orange;"></sup>
-  - [学习资料荟萃](osdev/os-res_v1.0.md)
+  - [OSDev Wiki 翻译](osdev/)
+  - [操作系统原理](os/)
 
-- 闲话
-  - [网络](net/linux_opensource_network.md)
-  - [CyberSecurity](cybersecurity/cybersecurity_career.md)
-   - [闲话](talking/open_WikiPedia_in_correct_way.md)
+- 翻译文章
+  - [网络](translate/net/)
+  - [赛博空间](translate/cybersecurity/)
+- [闲话](talking/)
   
 - 关于我
   - [个人简介](about/)

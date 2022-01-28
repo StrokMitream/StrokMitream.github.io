@@ -1,7 +1,7 @@
 # 内容更新列表
 
 ## 2022 
-### 01-16 [【翻译】如何测量程序执行时间](osdev/How2MeasureExecutionTimeof-a-Program.md)
+### 01-16 [【翻译】如何测量程序执行时间](talking/How2MeasureExecutionTimeof-a-Program.md)
 
 本文首先介绍了计算机领域关于 `时间` 的几个概念，包括**墙上时钟时间**、**CPU 时间**，以及计算机是如何表示时间、日期。
 
@@ -37,7 +37,7 @@
 
 
 
-### 10-21 [2021 中国智能网卡研讨会回顾](net/2021_SmartNIC_Conference.md)
+### 10-21 [2021 中国智能网卡研讨会回顾](translate/net/2021_SmartNIC_Conference.md)
 
 最近回顾总结了一下今年 9月25日召开的智能网卡研讨会议题。
 保持对行业动态的关注，经常记录。
@@ -57,13 +57,13 @@
 
 ---
 
-### 08-18 [【译】2021 年最佳 Linux 系统发行版推荐](osdev/2021_best-linux-distro.md)
+### 08-18 [【译】2021 年最佳 Linux 系统发行版推荐](talking/2021_best-linux-distro.md)
 
 2021年了，你是否依然在搜索最合适的Linux 发行版？本文，我将指导你选择最合适的 Linux 发行版，无论你是初学者，有经验的老鸟，还是专家级用户。
 
 ---
 
-### 07-11 [Linux 虚拟网络设备之 TUN_TAP 设备](net/linux_tun_tap.md)
+### 07-11 [Linux 虚拟网络设备之 TUN_TAP 设备](translate/net/linux_tun_tap.md)
 
 在计算机网络中，TUN 与 TAP 是操作系统内核中的**虚拟网络设备**。不同于普通靠硬件网路板卡实现的设备，这些虚拟的网络设备全部由软件实现，并向运行于操作系统上的软件提供与硬件的网络设备完全相同的功能。
 TAP 等同于一个以太网设备，它操作第二层数据包如以太网数据帧。TUN 模拟了网络层设备，操作第三层数据包比如 IP 数据封包。
@@ -72,7 +72,7 @@ TAP 等同于一个以太网设备，它操作第二层数据包如以太网数�
 
 ---
 
-### 06-27 [《Linux 开源网络全栈详解：从DPDK 到 OpenFlow》之 Linux 开源网络](net/linux_opensource_network.md)
+### 06-27 [《Linux 开源网络全栈详解：从DPDK 到 OpenFlow》之 Linux 开源网络](translate/net/linux_opensource_network.md)
 
 自 1991 年诞生起， Linux 已走过了近三十年。已 Linux 为基础，也衍生出各种开源生态，例如网络和存储。
 在云原生时代，云网络越发凸显其重要性。面对 Linux 开源网络这么一个庞大而又杂乱的世界，让人最为惴惴不安的问题或许是：我们该如何更快更好地适应这个全新的世界？
@@ -86,7 +86,7 @@ TAP 等同于一个以太网设备，它操作第二层数据包如以太网数�
 
 ## 2020
 
-### 12-15 [pfSense——跑在 VMware 上的防火墙](cybersecurity/pfSense_firewall_on_VM.md)
+### 12-15 [pfSense——跑在 VMware 上的防火墙](translate/cybersecurity/pfSense_firewall_on_VM.md)
 
 如果你正在学习防火墙配置，而又没有可以随意修改/配置的防火墙设备；那么，本文或许可以助你一臂之力！
 且随我慢慢道来。
@@ -110,7 +110,7 @@ Linus Torvalds 是 Linux 操作系统的创造者，至今还在维护 Linux 内
 
 ---
 
-### 09-17 [万字长文——信息安全职业生涯规划](cybersecurity/cybersecurity_career.md)
+### 09-17 [万字长文——信息安全职业生涯规划](translate/cybersecurity/cybersecurity_career.md)
 
 作者从事信息安全将近 20 年，经常被问到”我要怎么做才能入门信息安全领域？”。这篇万字长文就是他对这个问题的回答，涉及方方面面。
 
@@ -118,7 +118,7 @@ Linus Torvalds 是 Linux 操作系统的创造者，至今还在维护 Linux 内
 ---
 
 
-### 06-28 [AWS 中最最基础的网络概念](net/basic_aws_network_concepts.md)
+### 06-28 [AWS 中最最基础的网络概念](translate/net/basic_aws_network_concepts.md)
 
 对于传统的经典网络下的 IP、子网、掩码，我们往往能够不假思索、脱口而出地解释清楚这些概念的涵义。
 在云时代，对于云计算场景下的网络，我们又知道、了解多少 ？
@@ -127,7 +127,7 @@ AWS 作为业界领先的云服务商，他提供的云网络产品，又有哪�
 
 ---
 
-### 04-06 [什么是 Web 应用防火墙（WAF）？](cybersecurity/what_is_waf.md)
+### 04-06 [什么是 Web 应用防火墙（WAF）？](translate/cybersecurity/what_is_waf.md)
 
 时下，网络攻击和针对网站的攻击与日俱增。同时，在我们的日常生活中，网络安全的重要性也迅速提升。
 
@@ -147,7 +147,7 @@ AWS 作为业界领先的云服务商，他提供的云网络产品，又有哪�
 
 ---
 
-### 01-03 [OS 学习框架](osdev/os_study_structure.md)
+### 01-03 [OS 学习框架](os/os_study_structure.md)
 
 在软件的开发过程中，随着业务系统的日趋复杂，功能日渐增强，软件系统的规模也大幅膨胀。更何况是像操作系统这样的大型软件系统。
 
@@ -163,7 +163,7 @@ AWS 作为业界领先的云服务商，他提供的云网络产品，又有哪�
 
 ## 2019 
 
-### 06-20 [操作系统学习资料荟萃 V1.0](osdev/os-res_v1.0.md)
+### 06-20 [操作系统学习资料荟萃 V1.0](os/os-res_v1.0.md)
 
 在学习操作系统的过程中，手头上收集了一些不错的学习资料，现发出来与大家分享。
 
