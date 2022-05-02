@@ -194,9 +194,9 @@
 
 
 
-最近微信公众号平台，上线了显示 IP 位置功能，欢迎留言区打卡、交流！
 
 
+![qr_code](http://cdn.talkaboutos.top/qr_code.png)
 
 
 
