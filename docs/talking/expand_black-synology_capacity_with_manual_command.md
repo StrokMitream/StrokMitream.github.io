@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 # 黑群晖命令行手动扩容
+=======
+###### tags: `Writings` 
+
+---
+>>>>>>> 0cd8616ebe0f58c73a03e869e893eef598b36811
 
 # 1 背景
 2020年10月，在公众号博主的种草下，花了 400大洋，入手了蜗牛星际A 款 NAS（四盘位） ，即大伙儿口中的**“黑群晖”**。
@@ -19,9 +25,13 @@
 
 # 2 电源供电不足
 新硬盘安装好，上电开机，登录控制台后，没多久就报 Error：硬盘 crash 掉了。
+<<<<<<< HEAD
 
 ![Woniuxingji](http://cdn.talkaboutos.top/Woniuxingji.png)
 
+=======
+![image.png](https://cdn.nlark.com/yuque/0/2022/png/148899/1657983827950-baaa74a7-27ec-4f3c-a4c9-6f36cfa939d2.png#clientId=u48c2262d-207e-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=60&id=u6d0c4c2a&margin=%5Bobject%20Object%5D&name=image.png&originHeight=93&originWidth=1794&originalType=binary&ratio=1&rotation=0&showTitle=false&size=15571&status=done&style=stroke&taskId=ud5d6639c-2e1e-40b4-b497-8ec6b11aef3&title=&width=1148.16)
+>>>>>>> 0cd8616ebe0f58c73a03e869e893eef598b36811
 之前使用过程中，可是从来没有出现过硬盘 crash 的情况啊。
 
 于是试着重启一下看看。
@@ -33,7 +43,11 @@
 怀疑是，原装的电源，供电能力不足，支撑不了 3块硬盘。
 
 于是乎，在网友的推荐下，又下单了 益衡 ENP-7025B 250W 电源。
+<<<<<<< HEAD
 ![ENP-7025B-250W-power-adapter](http://cdn.talkaboutos.top/ENP-7025B-250W-power-adapter.png)
+=======
+![益衡ENP-7025B-250W电源.png](https://cdn.nlark.com/yuque/0/2022/png/148899/1657984035624-178a0399-0e7d-48bb-b659-50095f8ea460.png#clientId=u48c2262d-207e-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=618&id=u75717189&margin=%5Bobject%20Object%5D&name=%E7%9B%8A%E8%A1%A1ENP-7025B-250W%E7%94%B5%E6%BA%90.png&originHeight=965&originWidth=1293&originalType=binary&ratio=1&rotation=0&showTitle=false&size=1663924&status=done&style=stroke&taskId=u661a84cc-410f-4489-8064-54e2d6e5e04&title=&width=827.52)
+>>>>>>> 0cd8616ebe0f58c73a03e869e893eef598b36811
 
 虽然有点小贵，但是相比于那几个 TB 的数据来说，也还说的过去。
 
@@ -47,17 +61,29 @@
 搞定供电不足的问题后，黑群晖的系统 bug ，把我给挡住了。
 
 我本机原来的的配置是：2块硬盘 RAID 0 配置，构成一个存储空间，通过群晖的 `SharedFolder`功能，共享给 Windows 电脑，Windows 上通过 “映射网络驱动器”挂载到文件系统上。
+<<<<<<< HEAD
 ![DiskStationSharedStorage](http://cdn.talkaboutos.top/DiskStationSharedStorage.png)
 
 我需要将这块新盘，扩到这个 SharedFolder 上，就是这个 `volume 2`，即 存储空间 2 上。
 
 不过，当我打开 DSM 存储空间管理面板，顿时傻眼了。
 ![StorageManager-without-AddDrive](http://cdn.talkaboutos.top/StorageManager-without-AddDrive.png)
+=======
+![image.png](https://cdn.nlark.com/yuque/0/2022/png/148899/1657966696194-7955d9b2-094c-4df6-bd06-1758e22205f8.png#clientId=u9d98f546-90c8-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=280&id=ua667bfc2&margin=%5Bobject%20Object%5D&name=image.png&originHeight=385&originWidth=1243&originalType=binary&ratio=1&rotation=0&showTitle=false&size=46356&status=done&style=stroke&taskId=u09cfd6de-d42f-4680-8824-705e302059b&title=&width=904)
+我需要将这块新盘，扩到这个 SharedFolder 上，就是这个 `volume 2`，即 存储空间 2 上。
+
+不过，当我打开 DSM 存储空间管理面板，顿时傻眼了。
+![image.png](https://cdn.nlark.com/yuque/0/2022/png/148899/1657966900367-58ca4f86-cb80-461b-8a3b-fef5d40c72b0.png#clientId=u9d98f546-90c8-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=543&id=uf40e66be&margin=%5Bobject%20Object%5D&name=image.png&originHeight=746&originWidth=1253&originalType=binary&ratio=1&rotation=0&showTitle=false&size=88171&status=done&style=stroke&taskId=ufb2a24dc-6dd2-4af7-970f-3b6bc54f6c5&title=&width=911.2727272727273)
+>>>>>>> 0cd8616ebe0f58c73a03e869e893eef598b36811
 
 按照上面的提示，我这个 `Volume 2` 的 Action 按钮，压根就没有添加硬盘的选项。
 
 那能不能通过加到 `Volume 2`  对应的存储池，来实现呢？
+<<<<<<< HEAD
 ![StoragePool-AddDrive-ineffective](http://cdn.talkaboutos.top/StoragePool-AddDrive-ineffective.png)
+=======
+![StoragePool-AddDrive-Snipaste_2022-07-16_13-43-46.png](https://cdn.nlark.com/yuque/0/2022/png/148899/1657967236197-ff0c64c6-312c-45fc-aa94-45108e343167.png#clientId=u9d98f546-90c8-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=540&id=u03e248e6&margin=%5Bobject%20Object%5D&name=StoragePool-AddDrive-Snipaste_2022-07-16_13-43-46.png&originHeight=743&originWidth=1255&originalType=binary&ratio=1&rotation=0&showTitle=false&size=84262&status=done&style=stroke&taskId=u69f644e1-312e-4644-b049-0a324b5c484&title=&width=912.7272727272727)
+>>>>>>> 0cd8616ebe0f58c73a03e869e893eef598b36811
 
 这回，这里倒是有“Add Drive”按钮了，可是，是灰的，不起作用。
 
@@ -119,8 +145,12 @@ synouser --setpw root xxx
 在进行实际操作前，我们先来了解一下群晖 NAS 存储里面的几个概念和他们之间的关系。
 
 先放上一张图：
+<<<<<<< HEAD
 ![Synology-disk-storagepool-volume-relation](http://cdn.talkaboutos.top/Synology-disk-storagepool-volume-relation.png)
 
+=======
+![群晖Synology硬盘、存储空间和存储池之间的关系.png](https://cdn.nlark.com/yuque/0/2022/png/148899/1657973544685-780cd25c-7d03-4dbb-bee6-0f6d90895159.png#clientId=ufedf6bb2-669f-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=304&id=u65a3bc23&margin=%5Bobject%20Object%5D&name=%E7%BE%A4%E6%99%96Synology%E7%A1%AC%E7%9B%98%E3%80%81%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4%E5%92%8C%E5%AD%98%E5%82%A8%E6%B1%A0%E4%B9%8B%E9%97%B4%E7%9A%84%E5%85%B3%E7%B3%BB.png&originHeight=418&originWidth=975&originalType=binary&ratio=1&rotation=0&showTitle=true&size=50358&status=done&style=stroke&taskId=u15baf713-6a01-4833-a149-0f74f1179f2&title=%E7%BE%A4%E6%99%96Synology%E7%A1%AC%E7%9B%98%E3%80%81%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4%E5%92%8C%E5%AD%98%E5%82%A8%E6%B1%A0%E4%B9%8B%E9%97%B4%E7%9A%84%E5%85%B3%E7%B3%BB&width=709.0909090909091 "群晖Synology硬盘、存储空间和存储池之间的关系")
+>>>>>>> 0cd8616ebe0f58c73a03e869e893eef598b36811
 图片来源：[https://www.suncan.com.cn/archives/5909](https://www.suncan.com.cn/archives/5909)
 
 群晖 NAS 存储中，有这么几个概念：硬盘、存储空间、存储池和共享文件夹（SharedFolder ）。
@@ -166,7 +196,11 @@ LVM 可以聚合多个实体分区，抽象封装之后，对外看起来就像�
 先来看一下群晖系统现有情况。
 
 在存储管理面板，可以看到， `Volume 2` 是原有的 2 块磁盘构成的存储空间，`Volume 3` 是新增磁盘构成的存储空间。
+<<<<<<< HEAD
 ![current_volume-in-storagemanager](http://cdn.talkaboutos.top/current_volume-in-storagemanager.png)
+=======
+![current_volume.png](https://cdn.nlark.com/yuque/0/2022/png/148899/1657976626735-8952723b-1d62-4661-aa74-253452118e72.png#clientId=ufedf6bb2-669f-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=248&id=u34f594c1&margin=%5Bobject%20Object%5D&name=current_volume.png&originHeight=341&originWidth=1255&originalType=binary&ratio=1&rotation=0&showTitle=false&size=46801&status=done&style=stroke&taskId=uaf121e31-61da-4b7e-8bed-ada6de76e66&title=&width=912.7272727272727)
+>>>>>>> 0cd8616ebe0f58c73a03e869e893eef598b36811
 
 
 ssh 远程界面，我们先看下系统存储空间使用情况：
@@ -306,22 +340,36 @@ I/O size (minimum/optimal): 65536 bytes / 131072 bytes
 
 -  PV（Physical Volume，物理卷 ）信息：
 
+<<<<<<< HEAD
 ![pvdisplay](http://cdn.talkaboutos.top/pvdisplay.png)
 
+=======
+![image.png](https://cdn.nlark.com/yuque/0/2022/png/148899/1657978779955-f6cf9ab2-4e43-46f5-90ed-fc2d1b515098.png#clientId=u1ef8c664-9a88-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=439&id=u85c4bef4&margin=%5Bobject%20Object%5D&name=image.png&originHeight=604&originWidth=1232&originalType=binary&ratio=1&rotation=0&showTitle=false&size=54129&status=done&style=stroke&taskId=u3869ac63-16e2-42ae-9658-18c00a1e56c&title=&width=896)
+>>>>>>> 0cd8616ebe0f58c73a03e869e893eef598b36811
 有 2 个 PV，对应我们新盘、原有磁盘的 RAID 。
 
 - VG （Volume Group，卷组）信息：
 
+<<<<<<< HEAD
 ![vgdisplay](http://cdn.talkaboutos.top/vgdisplay.png)
 
+=======
+![image.png](https://cdn.nlark.com/yuque/0/2022/png/148899/1657978850019-b9497e98-aa5b-43fd-a288-a57e800db3b8.png#clientId=u1ef8c664-9a88-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=675&id=u373ad18e&margin=%5Bobject%20Object%5D&name=image.png&originHeight=928&originWidth=1611&originalType=binary&ratio=1&rotation=0&showTitle=false&size=73100&status=done&style=stroke&taskId=ua6dacec3-8bd1-4686-a05f-91ec6ba65d5&title=&width=1171.6363636363637)
+>>>>>>> 0cd8616ebe0f58c73a03e869e893eef598b36811
 2 个 VG ，对应目前的 `Volume 3` 和 `Volume 2`  。
 
 - LV （Logical Volume，逻辑卷）信息：
 
+<<<<<<< HEAD
 ![lvdisplay-01](http://cdn.talkaboutos.top/lvdisplay-01.png)
 
 ![lvdisplay-02](http://cdn.talkaboutos.top/lvdisplay-02.png)
 
+=======
+![image.png](https://cdn.nlark.com/yuque/0/2022/png/148899/1657978926730-40971041-fefb-4fe4-a092-0d2393bc7bd8.png#clientId=u1ef8c664-9a88-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=580&id=u84b9e1e8&margin=%5Bobject%20Object%5D&name=image.png&originHeight=798&originWidth=1421&originalType=binary&ratio=1&rotation=0&showTitle=false&size=70999&status=done&style=stroke&taskId=u115ca5b8-8a89-49ee-ae9a-ee0a497393b&title=&width=1033.4545454545455)
+
+![image.png](https://cdn.nlark.com/yuque/0/2022/png/148899/1657978939181-a2a07fa2-678b-4970-8c23-b6f3725a8234.png#clientId=u1ef8c664-9a88-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=256&id=uabac7f3f&margin=%5Bobject%20Object%5D&name=image.png&originHeight=352&originWidth=1366&originalType=binary&ratio=1&rotation=0&showTitle=false&size=29303&status=done&style=stroke&taskId=u54911b7a-85dc-4ee5-8924-fd4ed06b309&title=&width=993.4545454545455)
+>>>>>>> 0cd8616ebe0f58c73a03e869e893eef598b36811
 4 个 LV ，每个 VG 底下除了存储数据的数据卷，还有一个 12MB 大小的 VG 保留空间（上面的图片为扩容操作后截的图，少了 `/dev/vg2/volume_3` 的信息 ）。
 
 ### 5.4.4 扩容操作
@@ -332,37 +380,57 @@ I/O size (minimum/optimal): 65536 bytes / 131072 bytes
 ```shell
 vgremove vg2
 ```
+<<<<<<< HEAD
 
 ![vgremove_vg2](http://cdn.talkaboutos.top/vgremove_vg2.png)
 
+=======
+![image.png](https://cdn.nlark.com/yuque/0/2022/png/148899/1657979989284-63668c8e-1084-42f7-aa5f-46cb00e2a3c0.png#clientId=u1ef8c664-9a88-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=39&id=ued88aacb&margin=%5Bobject%20Object%5D&name=image.png&originHeight=61&originWidth=1041&originalType=binary&ratio=1&rotation=0&showTitle=false&size=8491&status=done&style=stroke&taskId=u46fa9984-ca79-4f20-8da6-c71adb0621a&title=&width=666.24)
+>>>>>>> 0cd8616ebe0f58c73a03e869e893eef598b36811
 我这里` vg2 `只有 `volume_3` 一个逻辑卷，所以直接执行的 `vgremove ` 。
 
 如果存在多个逻辑卷，需根据实际情况确定。
 
+<<<<<<< HEAD
 删除之后，看下 PV 情况：
 ![pvdisplay-after-remove-vg2](http://cdn.talkaboutos.top/pvdisplay-after-remove-vg2.png)
+=======
+删除之后，看下 VG 情况：
+![image.png](https://cdn.nlark.com/yuque/0/2022/png/148899/1657980078182-f47e4264-cd40-4010-8fc9-dde829345625.png#clientId=u1ef8c664-9a88-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=370&id=u1341e472&margin=%5Bobject%20Object%5D&name=image.png&originHeight=578&originWidth=1034&originalType=binary&ratio=1&rotation=0&showTitle=false&size=49994&status=done&style=stroke&taskId=uba306453-06de-4846-909e-e89abc3799e&title=&width=661.76)
+>>>>>>> 0cd8616ebe0f58c73a03e869e893eef598b36811
 
 （2）扩容 `vg1 `
 ```shell
 vgextend vg1 /dev/md4
 ```
+<<<<<<< HEAD
 ![vgextend-md4](http://cdn.talkaboutos.top/vgextend-md4.png)
 
 执行完 `vgextend`后，查看下 VG 情况，可以看到 `vg1 `大小，已经扩成 8.17TB 了。
 ![vgdisplay-after-vgextend-md4](http://cdn.talkaboutos.top/vgdisplay-after-vgextend-md4.png)
 
+=======
+![Snipaste_2022-07-16_15-58-14-vgextend-md4-separate.png](https://cdn.nlark.com/yuque/0/2022/png/148899/1657983124460-40fdefd8-9156-49a3-a8a2-c2cb955af76d.png#clientId=u48c2262d-207e-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=42&id=u2a5f12ef&margin=%5Bobject%20Object%5D&name=Snipaste_2022-07-16_15-58-14-vgextend-md4-separate.png&originHeight=66&originWidth=914&originalType=binary&ratio=1&rotation=0&showTitle=false&size=10045&status=done&style=stroke&taskId=u569bbb1f-ba0c-4c05-996a-9ef3cf9260b&title=&width=584.96)
+执行完 `vgextend`后，查看下 VG 情况，可以看到 `vg1 `大小，已经扩成 8.17TB 了。
+![Snipaste_2022-07-16_15-58-14-vgdisplay(after-vgextend-md4).png](https://cdn.nlark.com/yuque/0/2022/png/148899/1657983219941-13a0b4d5-d3e6-427f-accb-ef0dff72d67b.png#clientId=u48c2262d-207e-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=351&id=u50d39164&margin=%5Bobject%20Object%5D&name=Snipaste_2022-07-16_15-58-14-vgdisplay%28after-vgextend-md4%29.png&originHeight=549&originWidth=1089&originalType=binary&ratio=1&rotation=0&showTitle=false&size=43685&status=done&style=stroke&taskId=u089c15cc-8abd-496c-a122-a769034078d&title=&width=696.96)
+>>>>>>> 0cd8616ebe0f58c73a03e869e893eef598b36811
 （3）扩容 LV
 
 ```shell
 lvextend -l +714219 /dev/vg1/volume_2
 ```
+<<<<<<< HEAD
 ![lvextend-volume_2](http://cdn.talkaboutos.top/lvextend-volume_2.png)
 
+=======
+![image.png](https://cdn.nlark.com/yuque/0/2022/png/148899/1657980479952-9be167e8-0b72-44ba-b72b-a603bc6eda2b.png#clientId=u1ef8c664-9a88-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=49&id=ueb3ae100&margin=%5Bobject%20Object%5D&name=image.png&originHeight=77&originWidth=1239&originalType=binary&ratio=1&rotation=0&showTitle=false&size=13633&status=done&style=stroke&taskId=u44d182b2-cacb-4d71-b4c6-bf3396f7d8f&title=&width=792.96)
+>>>>>>> 0cd8616ebe0f58c73a03e869e893eef598b36811
 `lvextend` 命令中的 `+714219`参数，来自` vg1 `扩容完成后，`vgdisplay` 中输出的 Free PE 。
 
 即我们在 `lvextend `中，要把这些 free 的 PE（Physical Extend，物理扩展区块） 添加进来。
 
 执行完 `lvextend `，再查看下 LV ：
+<<<<<<< HEAD
 ![lvdisplay-after-lvextend-volume_2-edited](http://cdn.talkaboutos.top/lvdisplay-after-lvextend-volume_2-edited.png)
 
 `/dev/vg1/volume_2` 大小已经扩成 8.17TB。
@@ -370,6 +438,13 @@ lvextend -l +714219 /dev/vg1/volume_2
 在文件系统查看一下：
 ![df_h-after extend-edited](http://cdn.talkaboutos.top/df_h-after extend-edited.png)
 
+=======
+![image.png](https://cdn.nlark.com/yuque/0/2022/png/148899/1657980633038-167723c6-b27f-4b04-8faa-7480ef0e1531.png#clientId=u1ef8c664-9a88-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=532&id=u7bad13b4&margin=%5Bobject%20Object%5D&name=image.png&originHeight=832&originWidth=1606&originalType=binary&ratio=1&rotation=0&showTitle=false&size=80437&status=done&style=stroke&taskId=u71b3166e-f3b6-4bd9-9d2a-88dabf965f1&title=&width=1027.84)
+`/dev/vg1/volume_2` 大小已经扩成 8.17TB。
+
+在文件系统查看一下：
+![Snipaste_2022-07-16_16-08-42-df_h(after extend)-edited.png](https://cdn.nlark.com/yuque/0/2022/png/148899/1657980788649-cb4cfb4c-f39b-45d2-b67e-de46d14a230b.png#clientId=u1ef8c664-9a88-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=476&id=u5f591544&margin=%5Bobject%20Object%5D&name=Snipaste_2022-07-16_16-08-42-df_h%28after%20extend%29-edited.png&originHeight=744&originWidth=1031&originalType=binary&ratio=1&rotation=0&showTitle=false&size=66793&status=done&style=stroke&taskId=u8247495e-2d0e-4c50-89c4-e59af10cf9a&title=&width=659.84)
+>>>>>>> 0cd8616ebe0f58c73a03e869e893eef598b36811
 可以看到，当前文件系统中，依然还是 5.3T 。
 
 这是为什么呢？
@@ -394,19 +469,30 @@ Couldn't find valid filesystem superblock.
 btrfs filesystem resize max /dev/vg1/volume_2
 ```
 
+<<<<<<< HEAD
 ![btrfs-filesystem-resize-max](http://cdn.talkaboutos.top/btrfs-filesystem-resize-max.png)
 
 执行完成，在看下文件系统：
 ![df_h-after-btrfs](http://cdn.talkaboutos.top/df_h-after-btrfs.png)
 
+=======
+![Snipaste_2022-07-16_16-27-39-btrfs-separate.png](https://cdn.nlark.com/yuque/0/2022/png/148899/1657981750004-1ed36a75-2642-4ac6-be79-961e853af495.png#clientId=u1ef8c664-9a88-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=44&id=ubc3eba8b&margin=%5Bobject%20Object%5D&name=Snipaste_2022-07-16_16-27-39-btrfs-separate.png&originHeight=68&originWidth=1056&originalType=binary&ratio=1&rotation=0&showTitle=false&size=10800&status=done&style=stroke&taskId=u2ae5eca8-147a-4851-9b48-d9e9ced2ca0&title=&width=675.84)
+执行完成，在看下文件系统：
+![Snipaste_2022-07-16_16-27-39-df_h(after-btrfs).png](https://cdn.nlark.com/yuque/0/2022/png/148899/1657981778699-fa1662f2-c9a6-4bb1-b033-1ddbdc5bdceb.png#clientId=u1ef8c664-9a88-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=225&id=u0fdb7e92&margin=%5Bobject%20Object%5D&name=Snipaste_2022-07-16_16-27-39-df_h%28after-btrfs%29.png&originHeight=352&originWidth=1114&originalType=binary&ratio=1&rotation=0&showTitle=false&size=46441&status=done&style=stroke&taskId=u6bdb7363-af1d-4910-ab6e-02e2a188172&title=&width=712.96)
+>>>>>>> 0cd8616ebe0f58c73a03e869e893eef598b36811
 已经顺利扩上去了。
 
 至此，基本上完成。 
 
 再去群晖管理后台，存储管理面板看下，
+<<<<<<< HEAD
 ![storage-manager-after-extend](http://cdn.talkaboutos.top/storage-manager-after-extend.png)
 
 ![storage-manager-volume-after-extend](http://cdn.talkaboutos.top/storage-manager-volume-after-extend.png)
+=======
+![Snipaste_2022-07-16_16-28-29-storage-manager(after extend).png](https://cdn.nlark.com/yuque/0/2022/png/148899/1657981946211-1eae0400-d487-4bd3-bcfc-3c290cade9ad.png#clientId=u1ef8c664-9a88-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=456&id=uca3b39a9&margin=%5Bobject%20Object%5D&name=Snipaste_2022-07-16_16-28-29-storage-manager%28after%20extend%29.png&originHeight=713&originWidth=910&originalType=binary&ratio=1&rotation=0&showTitle=false&size=49046&status=done&style=stroke&taskId=u1a096f74-93ff-4c47-b421-166d002adbb&title=&width=582.4)
+![image.png](https://cdn.nlark.com/yuque/0/2022/png/148899/1657981958242-5da14af0-d057-4192-b1ef-878f22bf22f5.png#clientId=u1ef8c664-9a88-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=477&id=ud62fa2db&margin=%5Bobject%20Object%5D&name=image.png&originHeight=746&originWidth=1248&originalType=binary&ratio=1&rotation=0&showTitle=false&size=59205&status=done&style=stroke&taskId=ue6aacebe-8d73-4162-b1b0-98c2cfbf14f&title=&width=798.72)
+>>>>>>> 0cd8616ebe0f58c73a03e869e893eef598b36811
 
 可以看到，已经完美生效了！
 
@@ -429,12 +515,15 @@ btrfs filesystem resize max /dev/vg1/volume_2
 
 所以还是要适当地做好数据备份工作。
 
+<<<<<<< HEAD
 ---
 ![扫码_搜索联合传播样式-白色版](http://cdn.talkaboutos.top/扫码_搜索联合传播样式-白色版.png)
 
 
 
 
+=======
+>>>>>>> 0cd8616ebe0f58c73a03e869e893eef598b36811
 
 # Reference
 
