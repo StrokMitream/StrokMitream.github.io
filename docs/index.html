@@ -1,39 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
 <head>
-  <meta charset="UTF-8">
-  <title>闲话操作系统</title>
-  <link rel="icon"
-        href="http://cdn.talkaboutos.top/logo.ico">
-  <link rel="stylesheet"
-        href="//cdn.jsdelivr.net/npm/docsify-top-banner-plugin@latest/dist/style.css" />
-  <!--  <link rel="stylesheet" href="https://unpkg.com/docsify-toc@1.0.0/dist/toc.css">-->
+    <meta charset="UTF-8">
+    <title>闲话操作系统</title>
+    <link rel="icon" href="http://cdn.talkaboutos.top/logo.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
+     <meta name="google-site-verification"
+           content="" />
+     <meta name="keywords"
+           content="输出，操作系统，学习，内核，网络，安全，读书, blog">
+     <meta name="description"
+           content=" 记录分享 「操作系统学习」路上的点点滴滴">
+     <meta name="viewport"
+           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+   
+     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-top-banner-plugin@latest/dist/style.css" />
+     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
+     <link 
+       	rel="stylesheet"
+       	href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css"
+       	title="docsify-darklight-theme"
+       	type="text/css"
+     />
 
-  <meta http-equiv="X-UA-Compatible"
-        content="IE=edge,chrome=1" />
-  <meta name="google-site-verification"
-        content="" />
-  <meta name="keywords"
-        content="输出，操作系统，学习，内核，网络，安全，读书,blog">
-  <meta name="description"
-        content=" 记录分享 「操作系统学习」路上的点点滴滴">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <!--<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css" /> -->
-
-  <link 
-    	rel="stylesheet"
-    	href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css"
-    	title="docsify-darklight-theme"
-    	type="text/css"
-  />
-
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
-
+     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+     <link rel="stylesheet" href="./resources/gitalk.css" />
+  
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-EZYMMEZZV7"></script>
 <script>
@@ -55,12 +48,23 @@ var _hmt = _hmt || [];
 })();
 </script>
 
-
-
 <style>
-  nav.app-nav li ul {
-    min-width: 100px;
-  }
+      /*加重描述strong*/
+      .markdown-section strong {
+      color: rgb(239, 112, 96);
+    }
+
+    /* 顶部导航栏固定 */
+    .app-nav{
+      position: fixed;
+      margin: 0;
+      /*padding: 10px 50px 10px 0;*/
+      padding: 10px 0 10px 0;/*上、右、下、左*/
+      width: calc(100% - 325px);
+      background-color: #fff;
+      height: 55px;
+      border-bottom: 1px solid #eee;
+    }
 
   .page_toc .lv2 span {
     text-indent: 0 !important;
@@ -86,11 +90,6 @@ var _hmt = _hmt || [];
     white-space: initial !important;
   }
 
-
-
-
-
-
     #TOPBANNER {
       z-index: 111;
       height: initial;
@@ -105,12 +104,75 @@ var _hmt = _hmt || [];
 
     .markdown-section h4{
       font-size: 18px;
+    } 
+  
+/*     #gitalk-container {
+      max-width: 300px; 
+*/
+
+    /* 
+    .markdown-section code {
+      border-radius: 2px;
+      font-family: "Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif;
+      font-size: 16px !important;
+      margin: 0 2px;
+      padding: 3px 5px;
+      white-space: nowrap;
+      /*border: 1px solid #282c34;*/
+      /*color: rgb(184, 101, 208);*/
     }
 
-    #gitalk-container {
-      /* max-width: 300px; */
+    .markdown-section > div > img, .markdown-section pre {
+      box-shadow: 2px 2px 20px 6px rgb(255, 255, 255) !important;
     }
 
+    .markdown-section a:not(:hover) {
+      text-decoration: none;
+    } */
+
+    /*侧边栏*/
+    .sidebar {
+      padding-top: 6px;
+    }
+
+    aside.sidebar ul li {
+      margin: 0;
+      position: relative;
+    }
+
+    aside.sidebar ul li ul {
+      margin: 6px 0;
+    }
+
+    aside.sidebar ul li p {
+      padding-left: 22px;
+      font-size: 18px;
+      font-weight: normal;
+    }
+
+    aside.sidebar ul li a {
+      line-height: 35px;
+      font-size: 14px;
+      padding: 3px 0 3px 22px;
+    }
+
+    aside.sidebar ul li.active > a {
+      font-size: 16px !important;
+    }
+
+    aside.sidebar ul li.active > a:before {
+      content: '' !important;
+      position: absolute !important;
+      margin: 0 !important;
+      width: 10px !important;
+      height: 10px !important;
+      top: 15px !important;
+      left: 0px !important;
+      border-radius: 50% !important;
+      background-color: #fed24a !important;
+      box-shadow: 0 0 0 3px rgba(254, 210, 74, 0.4) !important;
+    }
+    /*以上调侧边栏*/
   @media screen and (max-width: 640px) {
     main {
       z-index: unset;
@@ -165,11 +227,10 @@ var _hmt = _hmt || [];
     color: #25a46a;
     margin-bottom: 10px;
   }
-
-
+ 
 </style>
 
-  <script>
+  <!-- <script>
     ; (function(win) {
       function isFunction(functionToCheck) {
         return functionToCheck && {}.toString.call(functionToCheck) === '[object Function]'
@@ -231,7 +292,7 @@ var _hmt = _hmt || [];
 
       win.EditOnGithubPlugin.create = create
     })(window)
-  </script>
+  </script> -->
 </head>
 <body>
 <div id="bTOPBANNER"></div>
@@ -258,7 +319,36 @@ var _hmt = _hmt || [];
       margin: "50px",
       language:'chinese',
     },
+    name: '<span>闲话操作系统</span>',
+    nameLink: 'https://talkaboutos.top/',
+    auto2top: true,    //当路线改变时,滚动到屏幕的顶部
+    // themeColor: '#3F51B7',
+    mergeNavbar: false,    //Navbar将在小屏幕上与侧边栏合并
+    executeScript: true,     //执行页面上的脚本。只解析第一个脚本标记（演示）。如果存在Vue，则默认开
+    loadSidebar: true,      //_navbar.md如果为真，则从_navbar.md文件加载navbar ，否则从指定的路径加载
+    autoHeader: false,
+    loadNavbar: true,
+    maxLevel: 6,     //最大的内容表级别
+    //subMaxLevel: 6,     //在自定义边栏中添加目录（TOC)
+    externalLinkTarget: '_blank', //外链打开方式：_blank表示在新标签页中打开
+    topMargin: 60,//调整top
 
+    // toc: { // for https://github.com/justintien/docsify-plugin-toc
+    //   tocMaxLevel: 5,
+    //   target: 'h2, h2, h3, h4, h5, h6'
+    // },
+    search: {
+      noData: {
+        '/': '暂无相关内容，换个关键词试试？'
+      },
+      maxAge: 10, // Expiration time, the default one day
+      paths: 'auto',
+      depth: 3,
+      hideOtherSidebarContent: false,
+      placeholder: {
+        '/': '搜索'
+      }
+    },
 
 
     notFoundPage: true,
@@ -342,65 +432,20 @@ var _hmt = _hmt || [];
         });
       }
     ],
-    auto2top: true,
-    // themeColor: '#3F51B7',
-    mergeNavbar: false,
-    executeScript: true,
-    loadSidebar: true,
-    autoHeader: false,
-    loadNavbar: true,
-    maxLevel: 1,
-    subMaxLevel: 1,
-    sidebarDisplayLevel: 0,
-    name: '<span>闲话操作系统</span>',
-    nameLink: 'https://talkaboutos.top/',
 
-    topBanner: {
-      content: '测试 banner，为什么看不到？(没注释掉也看不到)',
-      defaultTag: 'span',
-      position: 'fixed',
-      backgroundColor: '#deebff',
-      zIndex: 99,
-      textColor: '#091E42',
-      linkColor: '#091E42',
-      textAlign: 'center',
-
-    },
-
-
-    // toc: { // for https://github.com/justintien/docsify-plugin-toc
-    //   tocMaxLevel: 5,
-    //   target: 'h2, h2, h3, h4, h5, h6'
-    // },
-    search: {
-      noData: {
-        '/': '暂无相关内容，换个关键词试试？'
-      },
-      maxAge: 10, // Expiration time, the default one day
-      paths: 'auto',
-      depth: 3,
-      hideOtherSidebarContent: false,
-      placeholder: {
-        '/': '搜索'
-      }
-    },
-    // formatUpdated: '{MM}/{DD}',
-
-    // formatUpdated: function(time) {
-      // ...
-
-    //  return time;
-    // },
-  }
+ }
 </script>
-
 </script>
 
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
-<script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>  <!--rel src这几个记得要写在body内，并且要放在该<script>以上 否则会出现gitalk no defined的报错-->
+<script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>  
+<!--rel src这几个记得要写在body内，并且要放在该<script>以上 否则会出现gitalk no defined的报错-->
+<!-- <script src="./resources/plugins/gitalk.min.js"></script>
+<script src="./resources/gitalk.min.js"></script> -->
+
 <script>
-  const gitalk = new Gitalk({
+  let props = {
     clientID: '95ff0bf51e4c4ee71efd',
     clientSecret: '54cda1ef2f602a3ddcbf0c8e7d0e840e9addb6ac',
     repo: 'blog_comment',
@@ -408,12 +453,17 @@ var _hmt = _hmt || [];
     admin: ['StrokMitream'],
     // language: 'zh-CN',
     // facebook-like distraction free mode
-    distractionFreeMode: false
-  })
+    distractionFreeMode: false,
+    id: decodeURI(location.hash.split('?')[0]),
+    language: 'en',
+  };
+      let gitalk = new Gitalk(props);
+      // 哈希路由切换时 重新加载Gitalk
+      window.addEventListener('hashchange', onHashChange);
+      function onHashChange() {
+        props.id = decodeURI(location.hash.split('?')[0]); //如果不切分，在docsify里面的各个段落都会生成新的评论issue
+      }
 </script> 
-
-
-
 
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
@@ -470,7 +520,5 @@ var _hmt = _hmt || [];
     src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"
     type="text/javascript">
 </script>
-
 </body>
-
 </html>
