@@ -342,14 +342,15 @@ var _hmt = _hmt || [];
       noData: {
         '/': '暂无相关内容，换个关键词试试？'
       },
-      maxAge: 10, // Expiration time, the default one day
+      maxAge: 86400000, // 过期时间，单位毫秒，默认一天
       paths: 'auto',
-      depth: 3,
+      // Headline depth, 1 - 6
+      depth: 6,
       hideOtherSidebarContent: false,
       placeholder: {
-        '/': '搜索'
+        '/': '🔍 搜索'
       }
-    },
+    },//添加搜索框
 
 
     notFoundPage: true,
