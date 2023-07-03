@@ -109,9 +109,6 @@
 最后，祝愿所有的朋友们：新的一年，新的气象！新的开始！
 
 ---
-<br>
-
-![qr_code](http://cdn.talkaboutos.top/qr_code.png)
 
 
 

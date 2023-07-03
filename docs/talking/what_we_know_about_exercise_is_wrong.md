@@ -196,11 +196,6 @@
 
 
 
-![qr_code](http://cdn.talkaboutos.top/qr_code.png)
-
-
-
-
 
 
 

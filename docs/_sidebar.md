@@ -4,6 +4,10 @@
 
 <center><strong> [ 操作系统 ] </strong></center>
 
+- [ 操作系统学习资料荟萃 V2.0 ](os/os-res_v2.0.md)
+- [ 我如何以 SerenityOS 谋生 ](os/How-I-make-a-living-working-on-SerenityOS.md)
+
+
 - **[ OSDev wiki 翻译 ]**
     * [OSDev Wiki——操作系统开发入门基础（一）](osdev/OSDevWiki-BasicInformation-Introduction.md)
     * [OSDev Wiki——操作系统开发入门基础（二）- 必知必会的先修技能](osdev/OSDevWiki-Required_Knowledge.md)
@@ -16,7 +20,13 @@
 
 - [ 不为人知的 Linux 大神 ](talking/20_facts_about_Linus_Torvalds.md)
 - [ Wikipedia 的正确打开方式 ](talking/open_WikiPedia_in_correct_way.md)
-  
+- [ 黑群晖命令行手动扩容  ](talking/expand_black-synology_capacity_with_manual_command.md)
+- [金句摘录 | 《复杂世界的明白人》](talking/SmartPeople_in_the_ComplexWorld.md)
+- [原来，那些健身方法全是错的！](talking/what_we_know_about_exercise_is_wrong.md)
+- [ 用 gdb 学 C 语言 ](talking/Learning-C-with-gdb.md)
+- [【翻译】如何测量程序执行时间](talking/How2MeasureExecutionTimeof-a-Program.md)
+- [2021年复盘（文末有福利！）](talking/2021-retrospective.md)
+- [【译】2021 年最佳 Linux 系统发行版推荐](talking/2021_best-linux-distro.md)
 
 
 <br>

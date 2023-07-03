@@ -15,8 +15,16 @@
 
 ---
 
+### 02-26 [ 我如何以 SerenityOS 谋生 ](os/How-I-make-a-living-working-on-SerenityOS.md)
+
+本文翻译自：https://awesomekling.github.io/How-I-make-a-living-working-on-SerenityOS/
+
+作者是开源软件 SerenityOS 的作者，2021年开始，全职投入开源开发。他介绍自己怎么谋生。
 
 
+
+
+---
 
 
 

@@ -65,6 +65,3 @@ Kiwix 中加载相应的 zim 资源包，即可用上离线版的 Wikipedia 。
 欢迎留言，交流分享使用体验！
 
 ---
-<br>
-
-![qr_code](http://cdn.talkaboutos.top/qr_code.png)

@@ -174,12 +174,7 @@ ssh 远程界面，我们先看下系统存储空间使用情况：
 # df -h
 Filesystem         Size  Used Avail Use% Mounted on
 /dev/md0           2.3G 1016M  1.2G  46% /
-none               1.9G     0  1.9G   0% /dev
-/tmp               1.9G  876K  1.9G   1% /tmp
-/run               1.9G  3.4M  1.9G   1% /run
-/dev/shm           1.9G  4.0K  1.9G   1% /dev/shm
-none               4.0K     0  4.0K   0% /sys/fs/cgroup
-cgmfs              100K     0  100K   0% /run/cgmanager/fs
+……
 /dev/vg2/volume_3  2.7T   18M  2.7T   1% /volume3
 /dev/md2           2.4G   50M  2.3G   3% /volume1
 /dev/vg1/volume_2  5.3T  4.8T  524G  91% /volume2
@@ -193,18 +188,9 @@ cgmfs              100K     0  100K   0% /run/cgmanager/fs
 # fdisk -l 
 
 Disk /dev/ram0: 640 MiB, 671088640 bytes, 1310720 sectors
-Units: sectors of 1 * 512 = 512 bytes
-Sector size (logical/physical): 512 bytes / 4096 bytes
-I/O size (minimum/optimal): 4096 bytes / 4096 bytes
 ……
-
-
 Disk /dev/sdb: 15 GiB, 16099835904 bytes, 31444992 sectors
-Units: sectors of 1 * 512 = 512 bytes
-Sector size (logical/physical): 512 bytes / 512 bytes
-I/O size (minimum/optimal): 512 bytes / 512 bytes
-Disklabel type: gpt
-Disk identifier: 6E06AAE0-541B-417C-AA76-020C5DC9B4E6
+……
 
 Device       Start      End Sectors  Size Type
 /dev/sdb1     2048  4982527 4980480  2.4G Linux RAID
@@ -215,12 +201,7 @@ Device       Start      End Sectors  Size Type
 
 
 Disk /dev/sdc: 2.7 TiB, 3000592982016 bytes, 5860533168 sectors
-Units: sectors of 1 * 512 = 512 bytes
-Sector size (logical/physical): 512 bytes / 4096 bytes
-I/O size (minimum/optimal): 4096 bytes / 4096 bytes
-Disklabel type: gpt
-Disk identifier: F09693A0-1533-4C6F-88AE-E98E3C48ACF5
-
+……
 Device       Start        End    Sectors  Size Type
 /dev/sdc1     2048    4982527    4980480  2.4G Linux RAID
 /dev/sdc2  4982528    9176831    4194304    2G Linux RAID
@@ -228,12 +209,7 @@ Device       Start        End    Sectors  Size Type
 
 
 Disk /dev/sde: 2.7 TiB, 3000592982016 bytes, 5860533168 sectors
-Units: sectors of 1 * 512 = 512 bytes
-Sector size (logical/physical): 512 bytes / 4096 bytes
-I/O size (minimum/optimal): 4096 bytes / 4096 bytes
-Disklabel type: gpt
-Disk identifier: 3187222F-2933-45F8-928B-70D5A5359F35
-
+……
 Device       Start        End    Sectors  Size Type
 /dev/sde1     2048    4982527    4980480  2.4G Linux RAID
 /dev/sde2  4982528    9176831    4194304    2G Linux RAID
@@ -241,55 +217,27 @@ Device       Start        End    Sectors  Size Type
 
 
 Disk /dev/sdf: 2.7 TiB, 3000592982016 bytes, 5860533168 sectors
-Units: sectors of 1 * 512 = 512 bytes
-Sector size (logical/physical): 512 bytes / 4096 bytes
-I/O size (minimum/optimal): 4096 bytes / 4096 bytes
-Disklabel type: gpt
-Disk identifier: 3367D4CE-B624-4DA1-9EA6-BD3273644B2C
-
+……
 Device       Start        End    Sectors  Size Type
 /dev/sdf1     2048    4982527    4980480  2.4G Linux RAID
 /dev/sdf2  4982528    9176831    4194304    2G Linux RAID
 /dev/sdf3  9437184 5860328351 5850891168  2.7T Linux RAID
-
-
 ……
 
 
 Disk /dev/md4: 2.7 TiB, 2995655213056 bytes, 5850889088 sectors
-Units: sectors of 1 * 512 = 512 bytes
-Sector size (logical/physical): 512 bytes / 4096 bytes
-I/O size (minimum/optimal): 4096 bytes / 4096 bytes
-
-
+……
 Disk /dev/md3: 5.5 TiB, 5991310426112 bytes, 11701778176 sectors
-Units: sectors of 1 * 512 = 512 bytes
-Sector size (logical/physical): 512 bytes / 4096 bytes
-I/O size (minimum/optimal): 65536 bytes / 131072 bytes
-
+……
 
 Disk /dev/mapper/vg2-syno_vg_reserved_area: 12 MiB, 12582912 bytes, 24576 sectors
-Units: sectors of 1 * 512 = 512 bytes
-Sector size (logical/physical): 512 bytes / 4096 bytes
-I/O size (minimum/optimal): 4096 bytes / 4096 bytes
-
-
+……
 Disk /dev/mapper/vg2-volume_3: 2.7 TiB, 2995639025664 bytes, 5850857472 sectors
-Units: sectors of 1 * 512 = 512 bytes
-Sector size (logical/physical): 512 bytes / 4096 bytes
-I/O size (minimum/optimal): 4096 bytes / 4096 bytes
-
-
+……
 Disk /dev/mapper/vg1-syno_vg_reserved_area: 12 MiB, 12582912 bytes, 24576 sectors
-Units: sectors of 1 * 512 = 512 bytes
-Sector size (logical/physical): 512 bytes / 4096 bytes
-I/O size (minimum/optimal): 65536 bytes / 131072 bytes
-
-
+……
 Disk /dev/mapper/vg1-volume_2: 5.5 TiB, 5991294828544 bytes, 11701747712 sectors
-Units: sectors of 1 * 512 = 512 bytes
-Sector size (logical/physical): 512 bytes / 4096 bytes
-I/O size (minimum/optimal): 65536 bytes / 131072 bytes
+……
 
 ```
 
@@ -430,8 +378,6 @@ btrfs filesystem resize max /dev/vg1/volume_2
 所以还是要适当地做好数据备份工作。
 
 ---
-![扫码_搜索联合传播样式-白色版](http://cdn.talkaboutos.top/扫码_搜索联合传播样式-白色版.png)
-
 
 
 

@@ -235,12 +235,3 @@ $2 = 12
 2. [Learning C with gdb](https://www.recurse.com/blog/5-learning-c-with-gdb) ;
 3. [Expert C Programming: Deep C Secrets](http://www.electroons.com/8051/ebooks/expert%20C%20programming.pdf) .
 
-
-
-
-
-
-
----
-
-![扫码_搜索联合传播样式-白色版](http://cdn.talkaboutos.top/%E6%89%AB%E7%A0%81_%E6%90%9C%E7%B4%A2%E8%81%94%E5%90%88%E4%BC%A0%E6%92%AD%E6%A0%B7%E5%BC%8F-%E7%99%BD%E8%89%B2%E7%89%88.png)
