@@ -1,11 +1,4 @@
-
-
-
-<!--![ishanshan1409-2.png](http://ishanshan.zoomquiet.top/share/ishanshan1409-2.png?imageView2/2/w/400 ':size=100')-->
 ![logo](http://cdn.talkaboutos.top/logo.png?imageView2/2/w/400 ':size=100')
-
-
-
 
 Hi, 欢迎来访。
 

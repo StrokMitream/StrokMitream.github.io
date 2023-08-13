@@ -73,7 +73,7 @@
 
 - **微信公众号：** 闲话操作系统（扫码关注我呀）
 
-  <div ><img src="http://cdn.talkaboutos.top/talking_about_operatingsystem.bmp" width="200" height="200" /></div>
+  <div ><img src="http://cdn.talkaboutos.top/mpwx_qr.jpg" width="200" height="200" /></div>
 
 博客内容仅是个人的笔记与总结，有错误之处还请多多指正，欢迎来交流讨论！
 
