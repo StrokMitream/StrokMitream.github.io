@@ -18,6 +18,7 @@
 
 <center><strong> [ 随笔 ] </strong></center>
 
+- [ GitHub 252k star 宝藏级 Developers 技术路线图 ](talking/GitHub_252k_star_Developers_roadmap.md)
 - [ 不为人知的 Linux 大神 ](talking/20_facts_about_Linus_Torvalds.md)
 - [ Wikipedia 的正确打开方式 ](talking/open_WikiPedia_in_correct_way.md)
 - [ 黑群晖命令行手动扩容  ](talking/expand_black-synology_capacity_with_manual_command.md)

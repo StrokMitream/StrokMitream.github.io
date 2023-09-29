@@ -1,6 +1,16 @@
 # 内容更新列表
 
-## 2023 
+## 2023
+### 09-29 [ GitHub 252k star 宝藏级 Developers 技术路线图 ](talking/GitHub_252k_star_Developers_roadmap.md)
+
+最近发现了一个宝藏级 Roadmap 网站， [https://roadmap.sh/](https://roadmap.sh/) ……
+
+---
+
+
+
+
+
 ### 06-14 [ 操作系统学习资料荟萃 V2.0 ](os/os-res_v2.0.md)
 
 好久不见，甚是想念。
