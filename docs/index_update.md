@@ -1,6 +1,16 @@
 # 内容更新列表
 
 ## 2023
+
+
+
+### 23-10-25 []((talking/Memories_under_the_Autumn_lantern.md)
+
+品茗赏花，泛舟吟月，写字弹琴，寻幽访胜，充满诗情画与梦幻光辉的日常，摘录若干片段 …… 
+
+---
+
+
 ### 09-29 [ GitHub 252k star 宝藏级 Developers 技术路线图 ](talking/GitHub_252k_star_Developers_roadmap.md)
 
 最近发现了一个宝藏级 Roadmap 网站， [https://roadmap.sh/](https://roadmap.sh/) ……

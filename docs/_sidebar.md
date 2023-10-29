@@ -28,6 +28,7 @@
 - [【翻译】如何测量程序执行时间](talking/How2MeasureExecutionTimeof-a-Program.md)
 - [2021年复盘（文末有福利！）](talking/2021-retrospective.md)
 - [【译】2021 年最佳 Linux 系统发行版推荐](talking/2021_best-linux-distro.md)
+- [《秋灯琐忆》——是谁多事种芭蕉？ 早也潇潇，晚也潇潇 ](talking/Memories_under_the_Autumn_lantern.md)
 
 
 <br>
